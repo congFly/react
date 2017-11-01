@@ -1,0 +1,140 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#root {
+    margin: 20px;
+    padding: 20px;
+}
+
+.sider, .header, .content, .footer {
+    background-color: #ffffff;
+}
+
+.order-header > h1 {
+    margin: 0;
+    font-size: 24px;
+    text-overflow: ellipsis;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.breadcrumb {
+    float: right;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 0 5px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-radius: 2px;
+}
+
+.breadcrumb > li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 5px;
+}
+
+.breadcrumb > li:after {
+    content: '>';
+    color: #cccccc;
+    padding: 0 5px;
+}
+
+.breadcrumb > li:last-child:after {
+    content: '';
+}
+
+.breadcrumb > li > a {
+    color: #444;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.order-search {
+    margin-right: 20px;
+    float: right;
+    margin-bottom: 0;
+}
+
+.order-status {
+    display: block;
+    margin-top: 25px
+}
+
+.order-item {
+    padding: 5px 1px;
+    border: 1px solid #ddd;
+}
+
+.order-head {
+    padding: 10px;
+    background: #ddd;
+}
+
+.order-head div {
+    color: #333333;
+    font-weight: bold;
+}
+
+.td-style {
+    border: 1px solid #ddd;
+}
+
+.image-item {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    margin: 6px 2px 4px 0;
+    line-height: normal;
+}
+
+.goods-info div {
+    padding: 3px 0;
+}
+
+.goods-unit {
+    height: 100px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.goods-unit span {
+    vertical-align: middle;
+}
+
+.goods-memo, .money {
+    line-height: 100px;
+}
+
+.money {
+    line-height: 100px;
+    text-align: center;
+}
+
+.ant-col-4.goods-status {
+    text-align: center;
+    line-height: 50px;
+}
+
+.goods-count {
+    padding-right: 5px;
+    line-height: 50px;
+}
+
+.delivery-status {
+    display: block;
+    text-align: center;
+}
+
+
